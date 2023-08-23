@@ -1,0 +1,7 @@
+<p>Hello, {{ name }}!</p>
+<p>Favorite color: {{ color }}</p>
+
+<button [style.background-color]="color" (click)="changeColor()">Change Color</button>
+
+<app-nested [nestedMessage]="nestedMessage"></app-nested>
+
